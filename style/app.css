@@ -1,0 +1,62 @@
+/*==============================================================================
+    MAIN
+==============================================================================*/
+body {font-family: 'Open Sans', sans-serif;}
+
+/*==============================================================================
+    LIST
+==============================================================================*/
+ul.catList {list-style: none;
+    width: 200px;
+    float: left;
+    padding: 0px;
+    margin: 20px;}
+ul.catList li:first-child {border-top: 1px solid #ccc;}
+ul.catList li {border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    height: 20px;
+    padding: 10px;}
+ul.catList li:hover,
+ul.catList li.active {background-color: #ccc;}
+
+/*==============================================================================
+    VIEW
+==============================================================================*/
+div.catView {float: left;
+    width: 200px;
+    margin: 20px 20px 20px 0px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-height: 218px;}
+
+div.updateWrapper {float: left; 
+    width: 300px;
+    margin: 20px 20px 20px 0px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-height: 218px;}
+
+div.updateWrapper input {border: 1px solid #ccc;
+    height: 30px;
+    margin-top: 10px;
+    padding: 0 10px;
+    width: 278px;}
+
+button.updateCat,
+button.saveCat {background-color: #ccc;
+    border: 0 none;
+    color: #000;
+    font-size: 18px;
+    height: 40px;
+    width: 100%;}
+button.updateCat:hover,
+button.updateCat:active,
+button.saveCat:hover,
+button.saveCat:active {background-color: #000;
+    cursor: pointer;
+    color: #fff;}
+
+button.saveCat {margin-top: 10px;}
+
+div.updateCatContent {}

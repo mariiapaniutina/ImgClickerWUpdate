@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cat Clicker</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="style/app.css" />
+    </head>
+    <body>
+        <div>Select Cat and click on his picture</div>
+        
+        <ul class="catList"></ul>
+
+        <div class="catView">
+            <div class="name"></div>
+            <div class="counter"></div>
+            <div class="img">
+                <img src="" alt="" />
+            </div>
+        </div>
+        
+        <div class="updateWrapper">
+            <button class="updateCat">Update Cat</button>
+
+            <div class="updateCatContent" style="display: none;">
+                <input type="text" class="name" placeholder="New Cat Name" value="" />
+                <input type="text" class="img_url" placeholder="img1.png" />
+                <input type="text" class="clicks" placeholder="0" />
+                
+                <button class="saveCat">Save Updated Cat</button>
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+    </body>
+</html>
